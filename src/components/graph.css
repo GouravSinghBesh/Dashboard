@@ -1,0 +1,45 @@
+
+.graphs-container{
+    background-color: rgb(222, 225, 229);;
+    border-radius: 4px;
+    display: flex;
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.graph-container{
+    height: 310px;
+    width: 700px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+
+.graph-chart{
+   height: 250px;
+   width: 700px;
+   
+}
+.doughnut-container{
+    height: 310px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.doughnut{
+    height: 220px;
+    width: 220px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.graph-text{
+    display: flex;
+    justify-content: space-between;
+}
+.graph-text select{
+    border: none;
+    outline: none;
+}

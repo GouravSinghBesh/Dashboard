@@ -1,0 +1,98 @@
+.main-container{
+    /* flex: 1; */
+    height: 100vh;
+    width: 15vw;
+    background-color: rgb(16, 19, 89);
+    position: relative;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.title-container h1{
+    color: white;
+    font-size:x-large;
+    font-weight: 600;
+    padding-left: 8px;
+}
+.listItems{
+    display: flex;
+    flex-direction: column;
+    color: rgb(242, 234, 234);
+    font-size: large;
+    /* position: absolute; */
+    }
+
+.listItems div{
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.middle-container{
+    /* flex: 3; */
+    padding-top: 80px;
+    position: relative;
+}
+
+.DashboardListItem li{
+    padding-left: 8px;
+}
+
+.DashboardListItem:hover{
+    display: flex;
+    align-items: center;
+    background-color: rgb(77, 79, 131);
+    border-radius: 5px;
+}
+.DashboardListItem{
+    position: relative;
+}
+.DashboardListItem .arrow{
+    position: absolute;
+    right: 0;
+}
+
+.tail{
+     /* position: relative;  */
+     /* bottom: 30px;   */ 
+    display: flex;
+    /* flex: 1; */
+    justify-content: center;
+    background-color: rgb(77, 79, 131);
+    margin-top: 26vh;
+    
+}
+
+.tail div{
+    margin-left: 8px;
+    
+}
+
+.tail img{
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.tail p:first-child{
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.tail p:last-child{
+    color: grey;
+    font-size: small;
+}
+.tailArrow{
+    position: absolute;
+    right: 5px;
+    margin-top: 20px;
+}

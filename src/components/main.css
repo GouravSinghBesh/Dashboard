@@ -1,0 +1,13 @@
+.top-container{
+    background-color: rgb(222, 225, 229);
+    width: 85vw;
+}
+
+.container{
+    width: 1060px;
+    height: 96vh;
+    margin: 0 auto;
+    background-color: aqua;
+    margin-top: 30px;
+}
+
